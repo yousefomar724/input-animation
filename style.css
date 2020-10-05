@@ -50,7 +50,7 @@ h1{margin: 0;}
 .form__div{
     position: relative;
     height: 48px;
-    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .form__input{
@@ -79,8 +79,20 @@ h1{margin: 0;}
     transition: .3s;
 }
 
+.form a{
+    text-decoration: none;
+    font-size: var(--small-font-size);
+    color: var(--main-color);
+    margin: .5rem .2rem 2rem 0;
+    display: block;
+    text-align: end;
+}
+
+.form a:hover{text-decoration: underline;}
+
 .form__btn{
     display: block;
+    margin-top: 1.5rem;
     margin-left: auto;
     padding: .75rem 2rem;
     outline: none;
